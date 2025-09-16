@@ -75,7 +75,7 @@ This analysis is based on a primary CSV files:
 
 **Umar Khairur Rahman**
 * Tableau Public Profile: [umar.rahman](https://public.tableau.com/app/profile/umar.rahman)
-* GitHub: `https://github.com/FBNajis`
+* GitHub: `https://github.com/umarkhairurr`
 * LinkedIn: `https://www.linkedin.com/in/umar-khairur-rahman-168739258/`
 
 ---
