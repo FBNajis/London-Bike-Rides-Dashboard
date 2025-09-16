@@ -64,6 +64,7 @@ This analysis is based on a primary CSV files:
 ## Repository Contents
 * `london_merged.csv`: The main dataset used for the analysis.
 * `london_bikes.ipynb`: Jupyter Notebook containing the Python code for data processing.
+* `london_bikes_final.xlsx`: Excel containing dataset after preprocessing by Jupyter notebook that used for dashboard visualization.
 * `London Bike Rides - Moving Average & Temp vs Wind Heatmap.twbx`: The Tableau workbook file containing the dashboard.
 * `London Bike Rides Dashboard.png`: A preview image of the dashboard.
 * `README.md`: This project explanation.
