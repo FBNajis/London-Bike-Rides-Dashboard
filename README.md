@@ -17,7 +17,7 @@
 
 ## Project Overview
 
-This project aims to analyze customer feedback for British Airways through collected reviews. The review data is processed and visualized using Tableau to create an interactive dashboard. This dashboard is designed to provide in-depth insights into various aspects of the customer experience, including sentiment, ratings, frequently discussed topics, and key service areas, thereby helping to understand overall customer satisfaction and identify potential areas for improvement.
+This project aims to analyze London's bike-sharing data to understand how various factors, especially weather conditions, affect the number of bike rides. The raw data is processed using Python and then visualized using Tableau to create an interactive dashboard. This dashboard is designed to provide in-depth insights into bike usage trends, correlations with temperature and wind speed, and seasonal patterns, thereby helping to understand the behavior of bike-sharing service users in London.
 
 ---
 
@@ -35,38 +35,38 @@ Below is a preview of the dashboard:
 
 ## Key Dashboard Features & Insights
 
-The dashboard presents various visualizations to uncover important insights from customer reviews, including:
+The dashboard presents various visualizations to uncover important insights from the bike ride data:
 
-* **Overall Sentiment Analysis:** Understanding the general customer perception (positive, negative, neutral) towards British Airways services.
-* **Rating Distribution:** Visualization of the spread of ratings given by customers for various service aspects.
-* **Key Review Topics:** Identification of themes or keywords that most frequently appear in customer reviews, such as seat comfort, cabin service, catering, in-flight entertainment, etc.
-* **Service Category Analysis:** Breakdown of ratings or sentiment by specific service categories (e.g., ground service, in-flight service, value for money).
-* **Identification of Strengths and Areas for Improvement:** Highlighting service aspects that customers appreciate most and areas that receive the most complaints.
+* **Main KPIs:** Displays aggregate metrics such as Total Rides, Average Temperature, and Average Wind Speed.
+* **Moving Average Analysis:** Visualizes the trend of bike ride counts over time using a moving average to smooth out short-term fluctuations.
+* **Temperature vs. Wind Speed Heatmap:** Shows the correlation between temperature and wind speed against the number of bike rides, identifying ideal weather conditions for cycling.
+* **Interactive Filters:** Allows users to filter data by Weather Situation, Season, and Holiday for more specific analysis.
+* **Key Insights:** From the dashboard, it can be concluded that the number of bike rides tends to increase with warmer temperatures and lower wind speeds. Usage peaks during the summer and drops sharply in the winter.
 
 ---
 
 ## Dataset Used
 
-This analysis is based on two primary CSV files:
+This analysis is based on a primary CSV files:
 
-1.  **`ba_reviews.csv`**: Contains a collection of British Airways customer reviews, including review text, ratings, dates, and other relevant details related to their flight experience.
-2.  **`Countries.csv`**: Likely contains supporting country-related data, which might be used to analyze reviews by passenger nationality or review origin, or for standardizing geographical data
+1.  **`london_merged.csv`**: Contains time-series data from 2023 to 2025, including the hourly count of bike rides, temperature, wind speed, humidity, and other relevant variables such as holidays and weekends. This data has undergone cleaning and feature engineering using a Jupyter Notebook.
 
 ---
 
 ## Technologies Used
 
+* **Python (Jupyter Notebook):** Used for initial data processing, cleaning, and feature engineering.
 * **Tableau Desktop & Tableau Public:** Used for creating, designing, and publishing the interactive dashboard.
-* **CSV:** File format used for storing review and country data.
-  
+* **CSV:** The file format used for storing the dataset.
+
 ---
 
 ## Repository Contents
-* `london_merged.csv`: British Airways customer reviews dataset.
-* `london_bikes_final.xlsx`: Supporting country information dataset.
-* `London Bike Rides Dashboard.png`: Dashboard preview image.
+* `london_merged.csv`: The main dataset used for the analysis.
+* `london_bikes.ipynb`: Jupyter Notebook containing the Python code for data processing.
+* `London Bike Rides - Moving Average & Temp vs Wind Heatmap.twbx`: The Tableau workbook file containing the dashboard.
+* `London Bike Rides Dashboard.png`: A preview image of the dashboard.
 * `README.md`: This project explanation.
-* `London Bike Rides - Moving Average & Temp vs Wind Heatmap.twbx`: Tableau source code file.
 
 ---
 
