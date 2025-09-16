@@ -1,4 +1,4 @@
-# British Airways Reviews Dashboard
+# London Bike Rides Dashboard
 
 **Author:** Umar Khairur Rahman
 
@@ -25,11 +25,11 @@ This project aims to analyze customer feedback for British Airways through colle
 
 You can access and interact directly with the dashboard via Tableau Public:
 
-➡️ **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/umar.rahman/viz/BritishAirwaysReviewsDashboard_17479463256860/Dashboard1)**
+➡️ **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/LondonBikeRides-MovingAverageTempvsWindHeatmap/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 Below is a preview of the dashboard:
 
-![British Airways Reviews Dashboard Preview](British%20Airways%20Reviews%20Dashboard.png)
+![London Bike Rides Dashboard Preview](London%20Bike%20Rides%20Dashboard.png)
 
 ---
 
@@ -62,11 +62,11 @@ This analysis is based on two primary CSV files:
 ---
 
 ## Repository Contents
-* `ba_reviews.csv`: British Airways customer reviews dataset.
-* `Countries.csv`: Supporting country information dataset.
-*  `British Airways Reviews Dashboard.png`: Dashboard preview image.
+* `london_merged.csv`: British Airways customer reviews dataset.
+* `london_bikes_final.xlsx`: Supporting country information dataset.
+* `London Bike Rides Dashboard.png`: Dashboard preview image.
 * `README.md`: This project explanation.
-* `British Airways Reviews Dashboard.twb`: Tableau source code file.
+* `London Bike Rides - Moving Average & Temp vs Wind Heatmap.twbx`: Tableau source code file.
 
 ---
 
